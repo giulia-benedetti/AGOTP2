@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unitn.cryptolab.agotp.app" >
+
+    <application
+        android:name="it.unitn.cryptolab.agotp.app.AGOTPApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="it.unitn.cryptolab.agotp.app.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="it.unitn.cryptolab.agotp.app.SeedActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_seed" >
+        </activity>
+        <activity
+            android:name="it.unitn.cryptolab.agotp.app.PinActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pin" >
+        </activity>
+        <activity
+            android:name="it.unitn.cryptolab.agotp.app.PinCheckActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_pin_check" >
+        </activity>
+    </application>
+
+</manifest>

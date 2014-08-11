@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AGOTP</string>
+    <string name="hello_AGOTP"> </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seed">Salva il seed</string>
+    <string name="seed_explanation">Inserisci il seed fornitoti dalla tua banca. Il seed è composto da 10 caratteri alfanumerici.</string>
+    <string name="button_save_seed">Salva</string>
+    <string name="Nome_seed"> </string>
+    <string name="title_activity_pin">Salva il PIN</string>
+    <string name="pin_explanation">Inserisci il PIN che utilizzerai per accedere all\'applicazione. Il PIN è formato da 5 numeri.</string>
+    <string name="button_save_pin">Salva</string>
+    <string name="title_activity_pin_check">Controlla il PIN</string>
+    <string name="button_save_pin2">Verifica</string>
+    <string name="pin_check_explanation">Inserisci il tuo PIN personale.</string>
+
+
+</resources>
